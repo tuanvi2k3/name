@@ -1,0 +1,77 @@
+.header {
+  display: block;
+  justify-content: center;
+  overflow: none;
+}
+
+.header .logo {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+.header_nav .header_menu {
+  display: inline-block;
+  width: 100%;
+}
+
+.header_menu li {
+  display: inline-block;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.background-out {
+  height: 350px;
+}
+
+.background-out .content {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding: 40px 0 0 0;
+}
+
+.thestory {
+  display: block;
+}
+
+.thestory .image1 {
+  width: 100%;
+}
+
+.thestory-content {
+  padding-top: 20px;
+  width: 100%;
+}
+
+.btn-light {
+  margin-bottom: 20px;
+}
+
+.thestory-content .wapper {
+  padding: 0 10px;
+  color: white;
+}
+
+.great {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.user {
+  display: block;
+}
+
+.user-img {
+  margin: 0 auto;
+}
+
+.background-say {
+  height: 100%;
+}
+
+.background-say .say-content {
+  padding: 20px 0;
+}

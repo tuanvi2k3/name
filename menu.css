@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: aqua;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-lv1 {
+  position: relative;
+  background-color: bisque;
+}
+
+.menu-lv1 .item-lv1 {
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+
+.menu-lv1 .item-lv1:hover {
+  background-color: red;
+}
+
+.menu-lv1 .item-lv1:hover .menu-lv2 {
+  display: block;
+}
+
+.menu-lv1 .item-lv1 .title-lv1 {
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.menu-lv2 {
+  position: absolute;
+  background-color: white;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  display: none;
+}
+
+.menu-lv2 a {
+  color: #444;
+}
+
+.menu-lv2 .item-lv2 {
+  padding: 10px 0;
+}
+
+.menu-lv2 .item-lv2:hover {
+  text-decoration: underline;
+}
